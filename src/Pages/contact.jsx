@@ -53,7 +53,7 @@ const Contact = () => {
                         type="text"
                         name="name" 
                         required
-                        className="w-full p-2 border rounded"
+                        className="w-full p-2 border rounded bg-white"
                         placeholder="Bagas"
                     />
                 </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                         type="email"
                         name="email"
                         required
-                        className="w-full p-2 border rounded"
+                        className="w-full p-2 border rounded bg-white"
                         placeholder="bagas@example.com"
                     />
                 </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                     <textarea
                         name="message"
                         required
-                        className="w-full p-2 border rounded h-28"
+                        className="w-full p-2 border rounded h-28 bg-white"
                         placeholder="Tell me more about your idea or question"
                     />
                 </div>

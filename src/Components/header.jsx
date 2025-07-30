@@ -70,10 +70,10 @@ const Header = () => {
                 </nav>
 
                 <button
-                className="sm:hidden text-gray-700 ml-3"
-                onClick={() => setMenuOpen(!menuOpen)}
+                    className="sm:hidden text-white bg-orange-500 ml-3"
+                    onClick={() => setMenuOpen(!menuOpen)}
                 >
-                {menuOpen ? <X size={24} /> : <Menu size={24} />}
+                    {menuOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
             </header>
 
