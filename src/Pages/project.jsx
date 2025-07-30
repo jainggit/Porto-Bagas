@@ -36,8 +36,8 @@ const projects = [
 const Projects = () => {
     return <>
         <section id="project" className="py-20 mx-auto px-4">
-            <div className="flex flex-col justify-center">
-                <h2 className="text-3xl font-bold text-center mb-10">
+            <div className="flex flex-col items-center text-center mb-10 max-w-3xl mx-auto">
+                <h2 className="text-3xl font-bold text-center z-99">
                     My Projects
                     <span className="block w-20 h-1 bg-yellow-500 mx-auto mt-2" />
                 </h2>
