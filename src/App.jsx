@@ -14,12 +14,12 @@ export default function Portfolio() {
             <div className="absolute inset-y-0 right-10 w-20 bg-gradient-to-r from-gray-200 z-10 hidden xl:block"></div>
             <div className="relative z-20">
                 <Header />
-                <Home />
-                <Skill />
-                <About />
-                <Project />
-                <Contact />
-                <Footer />
+                <Home className="z-99"/>
+                <Skill className="z-99"/>
+                <About className="z-99"/>
+                <Project className="z-99"/>
+                <Contact className="z-99"/>
+                <Footer className="z-99"/>
             </div>
         </div>
     </>; 
