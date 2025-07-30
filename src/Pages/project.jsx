@@ -54,7 +54,7 @@ const Projects = () => {
                         />
                         <div className="flex flex-col gap-5 mt-4 md:mt-0">
                             <h3 className="text-2xl font-semibold">{project.title}</h3>
-                            <p className="text-base text-justify">{project.description}</p>
+                            <p className="text-base text-justify z-20">{project.description}</p>
                             <div className="flex flex-wrap gap-4">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <button className="bg-orange-500 text-white px-4 py-2 rounded-xl hover:bg-orange-600 transition text-sm">
