@@ -16,7 +16,7 @@ const projects = [
     {
         title: 'Simple To Do List',
         description:
-        'A simple To Do List app using HTML, CSS, and JavaScript. Users can add tasks by priority (low/medium/high), mark them as completed, filter by status (complete/incomplete), and delete unnecessary tasks.',
+        'A simple To Do List app built with HTML, CSS, and JavaScript. Users can add tasks with priority levels (low/medium/high), mark them as completed, filter by status (complete/incomplete), and delete tasks as needed.',
         image: foto1,
         reverse: true,
         link: "https://bagas-to-do.vercel.app/",
@@ -25,7 +25,7 @@ const projects = [
     {
         title: 'Web Portofolio',
         description:
-        'A simple To Do List app using HTML, CSS, and JavaScript. Users can add tasks by priority (low/medium/high), mark them as completed, filter by status (complete/incomplete), and delete unnecessary tasks.',
+        'A personal portfolio website built with React.js and styled using Tailwind CSS. It features a responsive layout, an interactive hamburger menu for navigation, social media icons implemented with React Icons, and a contact form handled via EmailJS. Visual elements like profile images are included to enhance the personal branding.',
         image: foto2,
         reverse: true,
         link: "https://porto-bagas-ten.vercel.app/",
