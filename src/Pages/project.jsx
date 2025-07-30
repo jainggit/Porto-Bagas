@@ -28,8 +28,8 @@ const projects = [
         'A simple To Do List app using HTML, CSS, and JavaScript. Users can add tasks by priority (low/medium/high), mark them as completed, filter by status (complete/incomplete), and delete unnecessary tasks.',
         image: foto2,
         reverse: true,
-        link: "https://bagas-to-do.vercel.app/",
-        git: "https://github.com/jainggit/Bagas_toDo"
+        link: "https://porto-bagas-ten.vercel.app/",
+        git: "https://github.com/jainggit/Porto-Bagas"
     },
 ];
 
@@ -39,8 +39,8 @@ const Projects = () => {
             <h2 className="text-3xl font-bold text-center mb-10">
                 My Projects
                 <span className="block w-20 h-1 bg-yellow-500 mx-auto mt-2" />
-                <p className="text-base text-gray-400">Here are the projects I have worked on, I hope you are interested.</p>
             </h2>
+            <p className="text-base text-gray-400">Here are the projects I have worked on, I hope you are interested.</p>
 
             <div className="flex flex-col items-center justify-center space-y-10">
                 {projects.map((project, index) => (
