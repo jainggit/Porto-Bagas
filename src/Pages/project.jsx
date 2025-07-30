@@ -52,9 +52,9 @@ const Projects = () => {
                             alt={project.title}
                             className="rounded-lg w-full md:max-w-md h-auto mb-4 md:mb-0 md:mr-6 border-b-2 md:border-b-0 md:border-r-2 border-orange-100"
                         />
-                        <div className="flex flex-col gap-5 mt-4 md:mt-0">
+                        <div className="flex flex-col gap-5 mt-4 md:mt-0 relative z-10">
                             <h3 className="text-2xl font-semibold">{project.title}</h3>
-                            <p className="text-base text-justify z-20">{project.description}</p>
+                            <p className="text-base text-justify ">{project.description}</p>
                             <div className="flex flex-wrap gap-4">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <button className="bg-orange-500 text-white px-4 py-2 rounded-xl hover:bg-orange-600 transition text-sm">

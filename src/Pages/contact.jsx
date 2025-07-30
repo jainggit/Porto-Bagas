@@ -31,8 +31,7 @@ const Contact = () => {
     return <>
         <section id="contact" className="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-10 scroll-mt-24">
             <div>
-                <p className="text-white bg-red-500 p-4 z-50">TEST TEXT</p>
-                <h2 className="text-3xl font-bold mb-4 z-99">Let's Collaborate!</h2>
+                <h2 className="text-3xl font-bold mb-4 relative z-10">Let's Collaborate!</h2>
                 <p className="mb-6 text-gray-700">
                     If you have a general or project enquiry, please drop me an email or fill the form.
                 </p>

@@ -10,10 +10,9 @@ const Home = () => {
                 </div>
                 <Social/>
             </div> 
-            <div className="space-y-3 mt-10 text-center md:text-left order-1 md:order-2 ">
+            <div className="space-y-3 mt-10 text-center md:text-left order-1 md:order-2 relative z-10">
                 <h2 className=" text-orange-500 text-xl md:text-2xl font-bold">Hi, I am</h2>
                 <h1 className="text-3xl md:text-4xl font-bold text-orange-500">Bagas Arjuna Gunawan</h1>
-                <p className="text-white bg-red-500 p-4 z-50">TEST TEXT</p>
                 <h1 className="text-2xl md:text-5xl font-extrabold">Front End Developer</h1>
                 <h2 className="text-xl md:text-3xl font-bold">
                     Bekasi, Indonesia
