@@ -10,7 +10,7 @@ const Home = () => {
                 </div>
                 <Social/>
             </div> 
-            <div className="space-y-3 mt-10 text-center md:text-left order-1 md:order-2">
+            <div className="space-y-3 mt-10 text-center md:text-left order-1 md:order-2 bg-white">
                 <h2 className=" text-orange-500 text-xl md:text-2xl font-bold">Hi, I am</h2>
                 <h1 className="text-3xl md:text-4xl font-bold text-orange-500">Bagas Arjuna Gunawan</h1>
                 <h1 className="text-2xl md:text-5xl font-extrabold">Front End Developer</h1>
