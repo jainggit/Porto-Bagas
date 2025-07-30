@@ -37,7 +37,7 @@ const Projects = () => {
     return <>
         <section id="project" className="py-20 mx-auto px-4">
             <div className="flex flex-col items-center text-center mb-10 max-w-3xl mx-auto">
-                <h2 className="text-3xl font-bold text-center z-99">
+                <h2 className="text-3xl font-bold text-center text-black">
                     My Projects
                     <span className="block w-20 h-1 bg-yellow-500 mx-auto mt-2" />
                 </h2>
@@ -53,8 +53,8 @@ const Projects = () => {
                             className="rounded-lg w-full md:max-w-md h-auto mb-4 md:mb-0 md:mr-6 border-b-2 md:border-b-0 md:border-r-2 border-orange-100"
                         />
                         <div className="flex flex-col gap-5 mt-4 md:mt-0">
-                            <h4 className="text-2xl font-semibold">{project.title}</h4>
-                            <p className="text-base text-justify ">{project.description}</p>
+                            <h4 className="text-2xl font-semibold text-black">{project.title}</h4>
+                            <p className="text-base text-justify text-black ">{project.description}</p>
                             <div className="flex flex-wrap gap-4">
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <button className="bg-orange-500 text-white px-4 py-2 rounded-xl hover:bg-orange-600 transition text-sm">

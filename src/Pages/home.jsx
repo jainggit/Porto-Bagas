@@ -13,8 +13,8 @@ const Home = () => {
             <div className="space-y-3 mt-10 text-center md:text-left order-1 md:order-2">
                 <h3 className=" text-orange-500 text-2xl font-bold">Hi, I am</h3>
                 <h1 className="text-4xl font-bold text-orange-500">Bagas Arjuna Gunawan</h1>
-                <h2 className="text-5xl font-extrabold">Front End Developer</h2>
-                <h2 className="text-4xl font-bold">
+                <h2 className="text-5xl font-extrabold text-black">Front End Developer</h2>
+                <h2 className="text-4xl font-bold text-black">
                     Bekasi, Indonesia
                 </h2> 
             </div> 

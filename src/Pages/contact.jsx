@@ -31,7 +31,7 @@ const Contact = () => {
     return <>
         <section id="contact" className="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-10 scroll-mt-24">
             <div>
-                <h4 className="text-3xl font-bold mb-4 relative z-10">Let's Collaborate!</h4>
+                <h4 className="text-3xl font-bold mb-4 relative z-10 text-black">Let's Collaborate!</h4>
                 <p className="mb-6 text-gray-700">
                     If you have a general or project enquiry, please drop me an email or fill the form.
                 </p>
