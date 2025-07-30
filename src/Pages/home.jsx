@@ -3,7 +3,7 @@ import Social from "../Components/social"
 import foto from "../images/bagas1.jpg"
 const Home = () => {
     return <>
-        <section id="home" className="grid gridd-cols-1 md:grid-cols-2 items-center px-4 py-20 mx-auto">
+        <section id="home" className="grid grid-cols-1 md:grid-cols-2 items-center px-4 py-20 mx-auto">
             <div className="flex flex-col items-center justify-center space-y-4 mt-20 order-2 md:order-1">
                 <div className="rounded-full border-4 border-orange-500 overflow-hidden w-60 h-61">
                     <img src={foto} alt="Profile" className="object-cover w-full h-full" />

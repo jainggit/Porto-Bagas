@@ -36,12 +36,13 @@ const projects = [
 const Projects = () => {
     return <>
         <section id="project" className="py-20 mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-10">
-                My Projects
-                <span className="block w-20 h-1 bg-yellow-500 mx-auto mt-2" />
-            </h2>
-            <p className="text-base text-gray-400">Here are the projects I have worked on, I hope you are interested.</p>
-
+            <div className="flex flex-col justify-center">
+                <h2 className="text-3xl font-bold text-center mb-10">
+                    My Projects
+                    <span className="block w-20 h-1 bg-yellow-500 mx-auto mt-2" />
+                </h2>
+                <p className="text-base text-gray-400">Here are the projects I have worked on, I hope you are interested.</p>
+            </div>
             <div className="flex flex-col items-center justify-center space-y-10">
                 {projects.map((project, index) => (
                 <div key={index} className="w-full">
